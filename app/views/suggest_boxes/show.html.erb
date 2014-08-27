@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @suggest_box.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @suggest_box.email %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @suggest_box.comment %>
+</p>
+
+<%= link_to 'Edit', edit_suggest_box_path(@suggest_box) %> |
+<%= link_to 'Back', suggest_boxes_path %>
